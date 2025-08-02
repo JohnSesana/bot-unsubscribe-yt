@@ -15,6 +15,14 @@ you can close it when you’re happy.
 
 ---
 
+## Demo Video
+
+
+https://github.com/user-attachments/assets/cf21a777-082f-4ba5-89f4-e754a198a7af
+
+
+
+
 ## Features
 
 * **Works with any logged-in Chrome/Chromium profile** (no Google login
