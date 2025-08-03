@@ -71,6 +71,7 @@ python unsubscribe.py
 
 **Important**
 - Only works with Chromium
+- YOUTUBE MUST BE LOGGED IN AND IN ENGLISH
 
 ```powershell
 winget install -e --id Hibbiki.Chromium
