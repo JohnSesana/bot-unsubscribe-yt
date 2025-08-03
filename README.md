@@ -64,7 +64,7 @@ cd bot-unsubscribe-yt
 pip install selenium undetected-chromedriver beautifulsoup4
 
 # 3 Install chromium (and log in your yt account)
-winget install -e --id Hibbiki.Chromium
+sudo pacman -S chromium
 
 # 4 Run
 python unsubscribe.py
