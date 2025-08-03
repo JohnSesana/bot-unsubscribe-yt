@@ -94,7 +94,7 @@ def safe_click(driver: webdriver.Chrome, el) -> None:
 
 def main() -> None:
     driver = chrome()
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 5)
 
     driver.get("https://www.youtube.com/feed/channels")
 
