@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/cf21a777-082f-4ba5-89f4-e754a198a7af
 
 | What                       | Arch / Manjaro command                              |
 |----------------------------|-----------------------------------------------------|
-| **Chromium** (or Chrome)   | `sudo pacman -S chromium`                           |
+| **Chromium ONLY**          | `sudo pacman -S chromium` / `winget install -e --id Hibbiki.Chromium`                           |
 | **Python ≥ 3.9**           | already on most distros                             |
 | **pip / venv**             | `sudo pacman -S python-pip python-virtualenv`       |
 | **Selenium 4**             | installed via `pip`                                 |
@@ -48,6 +48,8 @@ https://github.com/user-attachments/assets/cf21a777-082f-4ba5-89f4-e754a198a7af
 
 ## Quick start
 
+
+### LINUX
 ```bash
 # 1 clone & enter repo
 git clone https://github.com/JohnSesana/bot-unsubscribe-yt.git
@@ -63,3 +65,19 @@ pip install selenium undetected-chromedriver beautifulsoup4
 
 # 4 Run
 python unsubscribe.py
+```
+
+### WINDOWS
+
+**Important**
+- Only works with Chromium
+
+```powershell
+winget install -e --id Hibbiki.Chromium
+```
+
+then run the 
+
+```powershell
+python unsubscribe_windows.py
+```
