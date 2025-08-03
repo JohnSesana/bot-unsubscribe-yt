@@ -50,18 +50,21 @@ https://github.com/user-attachments/assets/cf21a777-082f-4ba5-89f4-e754a198a7af
 
 
 ### LINUX
+
+**Important**
+- Only works with Chromium
+- YOUTUBE MUST BE LOGGED IN AND IN ENGLISH
+
 ```bash
 # 1 clone & enter repo
 git clone https://github.com/JohnSesana/bot-unsubscribe-yt.git
 cd bot-unsubscribe-yt
 
-# 2 create isolated env
-python -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-
-# 3 install deps
+# 2 install deps
 pip install selenium undetected-chromedriver beautifulsoup4
+
+# 3 Install chromium (and log in your yt account)
+winget install -e --id Hibbiki.Chromium
 
 # 4 Run
 python unsubscribe.py
@@ -73,12 +76,17 @@ python unsubscribe.py
 - Only works with Chromium
 - YOUTUBE MUST BE LOGGED IN AND IN ENGLISH
 
-```powershell
+```bash
+# 1 clone & enter repo
+git clone https://github.com/JohnSesana/bot-unsubscribe-yt.git
+cd bot-unsubscribe-yt
+
+# 2 install deps
+pip install selenium undetected-chromedriver beautifulsoup4
+
+# 3 Install chromium (and log in your yt account)
 winget install -e --id Hibbiki.Chromium
-```
 
-then run the 
-
-```powershell
+# 4 Run
 python unsubscribe_windows.py
 ```
